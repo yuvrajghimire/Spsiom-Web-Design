@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../img/bg.jpg) repeat-x #bfbfbf;
+	font-family: Arial;
+}
+.wrapper
+{
+	width: 940px;
+	margin: auto;
+}
+header{
+	background: #fff;
+	height: 140px;
+	border-bottom: solid #d7d7d7 10px;
+}
+.logo{
+	float: left;
+}
+.info{
+	float: right;
+}
+.info p{
+	padding: 10px 20px;
+	text-align: right;
+	color: #054470;
+}
+.info p a{
+	text-decoration: none;
+	color: #054470;
+}
+.info img{
+	right: 20px;
+}
+.clc{
+	clear: both;
+}
+nav{
+	margin-top: 7px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: right;
+	margin-right: 1px;
+}
+.active a{
+	background: #d7d7d7;
+	color: #78332b;
+}
+.active a:hover{
+	color: #054470;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	background: #054470;
+	color: #fff;
+	transition: 0.5s;
+	font-size: 14px;
+}
+nav ul li a:hover{
+	background: #d7d7d7;
+	color: #054470;
+}
+.content{
+	background: #fff;
+	float: left;
+	padding-bottom: 20px;
+	width: 940px;
+}
+.left{
+	float: left;
+	padding: 0px 20px;
+	width: 65%;
+	border-right: 1px dotted #555;
+	margin-top: 20px;
+}
+.left h3{
+	font-size: 21px;
+	color: rgb(15, 119, 190);
+	text-shadow: rgb(187, 187, 187) 1px 1px 1px;
+	font-family: "arial narrow", arial, helvetica, sans-serif;
+}
+.left p{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif
+}
+.left span{
+	color: rgb(51, 51, 51);
+	font-size: 12px;
+	font-weight: 600;
+}
+.right{
+	float: right;
+	margin-top: 20px;
+	padding: 0px 60px;
+	font-family: "arial narrow", arial, helvetica, sans-serif;
+}
+.right ul{
+	float: none;
+}
+.right ul{
+	list-style: none;
+}
+.right ul li a{
+	text-decoration: none;
+	color: #044470;
+	font-size: 16px;
+	font-weight: 600;
+	transition: 0.4s;
+	text-shadow: 1px 1px 1px #bbb;
+	line-height: 22px;
+}
+.right ul li a:hover{
+	color: rgb(119, 49, 41);
+	text-decoration: underline rgb(119, 49, 41)
+}
+.right h3{
+	font-size: 21px;
+	color: rgb(15, 119, 190);
+	text-shadow: 1px 1px 1px #bbb;
+	font-family: "arial narrow", arial, helvetica, sans-serif;
+}
+.footer{
+	background: #064570;
+	height: 20px;
+	color: #fff;
+	padding: 3px 10px;
+	font-size: 12px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.lefty{
+	text-align: left;
+	padding-left: 160px;
+}
+.lefty form input{
+	width: 270px !important;
+	height: 35px;
+	margin-top: 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 20px;
+	padding: 0 20px;
+	box-shadow: 3px 1px 10px #000;
+}
+.form{
+	padding: 20px 0;
+}
+.lefty form span{
+	color: red;
+}
+.lefty form textarea{
+	width: 270px !important;
+	border-radius: 20px;
+	padding: 10px;
+}
